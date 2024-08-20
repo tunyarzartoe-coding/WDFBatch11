@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Elements</title>
+  </head>
+  <body>
+    <h2>Form Element</h2>
+
+    <form action="">
+      <label for="firstname">First Name</label>
+      <input
+        type="text"
+        name="firstname"
+        id="firstname"
+        class=""
+        placeholder="Enter Your First Name"
+        autofocus="true"
+        autocomplete="off"
+        maxlength="30"
+      />
+
+      <br /><br />
+
+      <label for="lastname">Last Name</label>
+      <input
+        type="text"
+        name="lastname"
+        id="lastname"
+        placeholder="Enter Your Last Name"
+      />
+
+      <br /><br />
+
+      <label for="age">Age</label>
+      <input
+        type="number"
+        name="age"
+        id="age"
+        placeholder="Enter Your Age"
+        min="20"
+      />
+
+      <br /><br />
+
+      <label for="password">Password</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Enter Your Password"
+      />
+
+      <br /><br />
+
+      <label>Gender</label>
+      <input type="radio" name="male" id="male" class="" value="0" />
+      <label for="male">Male</label>
+      <input type="radio" name="female" id="female" class="" value="1" />
+      <label for="female">Female</label>
+      <input type="radio" name="other" id="other" class="" value="2" />
+      <label for="female">Other</label>
+
+      <br /><br />
+
+      <label>Choose your fav colors</label>
+      <input
+        type="checkbox"
+        name="favcolor"
+        id="favrd"
+        value="1"
+        checked
+        class=""
+      />
+      <label for="fruitrd">Red</label>
+      <input type="checkbox" name="favcolor" id="favgn" value="2" class="" />
+      <label for="fruitgn">Green</label>
+
+      <input type="checkbox" name="favcolor" id="favbl" value="3" class="" />
+      <label for="fruitbl">Blue</label>
+      <input type="checkbox" name="favcolor" id="favsl" value="4" class="" />
+      <label for="fruitsl">Silver</label>
+
+      <br /><br />
+
+      <label>Fruit</label>
+      <input type="radio" name="fruit" id="apple" class="" value="0" />
+      <label for="male">Apple</label>
+      <input type="radio" name="fruit" id="mango" class="" value="1" />
+      <label for="female">Mango</label>
+      <input type="radio" name="fruit" id="orange" class="" value="2" />
+      <label for="female">Orange</label>
+
+      <br /><br />
+
+      <label for="citizen">Country</label>
+      <select name="country" id="country" class="">
+        <option selected disabled>Choose a Country</option>
+        <option value="mm">Myanmar</option>
+        <option value="jp">Japanese</option>
+        <option value="en">English</option>
+      </select>
+
+      <br/><br />
+
+      <label for="role">Role</label>
+      <select name="role[]" id="role" class="" multiple>
+        <!-- <option selected disabled>Choose a role</option> -->
+        <option value="1">Manager</option>
+        <option value="2">HR</option>
+        <option value="3">Staff</option>
+      </select>
+
+      <br/><br/>
+
+      <label for="dob">DOB</label>
+      <input type="date" name="dob" id="dob" class=""/>
+
+      <br/><br/>
+
+      <label for="bookingtime">Booking Time</label>
+      <input type="time" name="bookingtime" id="bookingtime" class=""/>
+
+      <br/><br/>
+
+      <label for="appointment">Appointment</label>
+      <input type="datetime-local" name="appointment" id="appointment" class=""/>
+
+      <br/><br/>
+
+      <label for="volume">Volume</label>
+      <input type="range" name="volume" id="volume" min="0" max="100" value="30" step="1" class=""/>
+
+      <br/><br/>
+
+      <label for="month">Month</label>
+      <input type="range" name="month" id="month" min="0" max="12" value="0" step="2" class=""/>
+
+      <br/><br/>
+
+      <label for="nrc">NRC</label>
+      <input type="file" name="nrc" id="nrc"  class=""/>
+
+      <br/><br/>
+
+      <label for="nrcmultiple">NRC Mutiple</label>
+      <input type="file" name="nrcmultiple" id="nrcmultiple"  class="" multiple/>
+
+
+    </form>
+
+  </body>
+</html>
