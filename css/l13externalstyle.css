@@ -1,0 +1,42 @@
+h1 {
+  color: darkblue;
+  font-size: 30px;
+}
+h2 {
+  color: darkblue;
+  font-size: 30px;
+}
+h3 {
+  font-size: 30px;
+  color: darkblue;
+}
+
+/* Group Selector (,)*/
+/* h1,h2,h3 {
+    font-size: 30px;
+    color: darkblue;
+  } */
+
+  /* Id Selector */
+  #myanmar{
+    background-color: aliceblue;
+    border: 3px solid black;
+  }
+  #thailand{
+    color: pink;
+    border-radius: 20px;
+  }
+
+  #japan,#yangon{
+    font-size: 30px;
+  }
+
+  /* Class Selector */
+  .football{
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+  }
+.apple, .football, .japan{
+    text-shadow: 39px;
+}
