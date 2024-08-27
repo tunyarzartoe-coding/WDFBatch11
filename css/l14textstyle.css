@@ -1,0 +1,34 @@
+p{
+    color: pink;
+}
+.textalign{
+    /* text-align: center; */
+    /* text-align: left; */
+    /* text-align: right; */
+    text-align: justify;
+}
+.textdecoration{
+    /* text-decoration: underline; */
+    /* text-decoration: line-through; */
+    text-decoration: overline;
+}
+/* a{
+    text-decoration: none;
+} */
+.google{
+    text-decoration: none;
+}
+.textline{
+    letter-spacing: 1px;
+    line-height: 2;
+}
+.textshawdow{
+    /* shor hand  */
+    /* h v b c */
+    /* text-shadow: 5px 0 0 red; */
+    /* text-shadow: 5px 10px 0 red; */
+    /* text-shadow: -5px 0 4px red; */
+    /* text-shadow: 5px -4px 0 red; */
+    /* text-shadow: 50px 3px 4px rgb(34, 0, 255); */
+    text-shadow: 50px 3px 4px #eee;
+}
